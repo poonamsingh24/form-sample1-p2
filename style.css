@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Nunito Sans", sans-serif;
+}
+body {
+  width: 100vw;
+  background-color: rgb(31, 20, 20);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form h2 {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.form {
+  background-color: rgb(31, 20, 20);
+  color: white;
+  height: 70vh;
+  width: 90vh;
+}
+.form-wraper {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.form-wraper input {
+  border: 0;
+  font-size: 12px;
+  border-bottom: 1px solid grey;
+  background-color: transparent;
+  padding: 1rem 0 1rem 0;
+}
+input {
+  color: #fff;
+}
+.form-wraper input:focus {
+  outline: none;
+}
+.form-input {
+  display: flex;
+  padding: 0 3rem 2rem 3rem;
+}
+.form-input h6 {
+  top: 2px;
+  color: gray;
+  border-bottom: 1px solid gray;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  padding: 0 3rem 0 3rem;
+}
+.form-input.form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  width: 100px;
+  background-color: rgb(232, 198, 11);
+  border: 0;
+  outline: 0;
+  border-radius: 100px;
+  padding: 8px 5px;
+}
+.form-group h5 {
+  color: gray;
+  border-bottom: 1px solid gray;
+  font-size: 11px;
+  margin-left: 10px;
+}
